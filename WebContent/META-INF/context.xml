@@ -1,0 +1,18 @@
+<Context path="/apps" docBase="apps" debug="5" reloadable="true" crossContaxt="true">
+
+<Resource name="jdbc/apps" auth="Container" type="javax.sql.DataSource"
+            username="root"
+            password=""
+            driverClassName="org.gjt.mm.mysql.Driver"
+            url="jdbc:mysql://localhost/livraria"
+            maxActive="100"
+            maxIdle="50"
+            maxWait="10000"
+            removeAbandoned="true"
+            logAbandoned="true"
+            removeAbandonedTimeout="60"
+            validationQuery="select 1"></Resource>
+
+
+
+</Context>

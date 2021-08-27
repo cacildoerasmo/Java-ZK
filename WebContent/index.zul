@@ -1,0 +1,75 @@
+<?page title="Auto Generated index.zul"?>
+ <window id="win_livraria" title="CADASTRO DE LIVRO" border="normal" width="100%" use="com.apps.controller.livraria">
+
+
+
+    <grid>
+		<columns>
+			<column width="30%"/>
+			<column width="30%"/>
+		</columns>
+		<rows>
+			<row>	
+			<label value="Autor"></label>
+			<textbox id="autor" width="100%"></textbox>
+			</row>
+			
+			    <row>
+             <label value="Editora"></label>
+             <textbox id="editora" width="100%"></textbox>
+         
+         </row>
+         
+         
+          <row>
+             <label value="Assunto"></label>
+             <textbox id="assunto" width="100%"></textbox>
+         
+         </row>
+         
+         
+          <row>
+             <label value="Valor"></label>
+             <textbox id="valor" width="100%"></textbox>
+         
+         </row>
+         
+           <row>
+            
+             <button id="salvar" label="SALVAR" onClick="win_livraria.saveitem(autor.getValue(),editora.getValue(),assunto.getValue(),valor.getValue())"></button>
+             <button id="eliminar" label="ELIMINAR"></button>
+             <button id="editar" label="EDITAR"></button>
+    
+         
+         </row>
+         </rows>
+	</grid>
+         <listbox id="listData" width="100%" emptyMessage="Nao tem livros para pesquisar..." onCreate="win_livraria.viewlist()">
+         
+         <listhead>
+        
+            <listheader label="IDLivro" width="min"></listheader>
+            <listheader label="Autor" width="min"></listheader>
+            <listheader label="Editora" width="min"></listheader>
+            <listheader label="Assunto" width="min"></listheader>
+            <listheader label="Valor" width="min"></listheader>
+            
+          </listhead>
+          
+         
+          
+         
+          </listbox>
+		
+        
+        
+         
+         
+			
+	
+    
+    
+    
+    
+
+</window>
