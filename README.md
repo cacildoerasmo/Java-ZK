@@ -13,7 +13,7 @@ Projecto feito com o framework ZK que realiza duas operações cadastro e lista.
 ![Screenshot (232)](https://user-images.githubusercontent.com/71551874/132047606-1253d892-0a8d-40da-a6a5-1dc617b8075b.png)
 
 # Desenvolvido por
- * Cacildo Erasmo Mabunda
+ * Cacildo Erasmo
 
 Obrigado!
 
